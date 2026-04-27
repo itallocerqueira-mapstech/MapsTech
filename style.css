@@ -1,27 +1,88 @@
 body {
-  font-family: Arial;
-  margin: 0;
-  background: #0f172a;
-  color: white;
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f2f2f2;
 }
 
-header {
-  text-align: center;
-  padding: 20px;
-  background: #020617;
+/* TOPO */
+.topbar {
+background: #1976d2;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px;
 }
 
-input {
-  width: 90%;
-  margin: 15px;
-  padding: 10px;
-  border-radius: 8px;
-  border: none;
+.topbar h1 {
+font-size: 18px;
+margin: 0;
 }
 
-.loja {
-  background: #1e293b;
-  margin: 10px;
-  padding: 15px;
-  border-radius: 10px;
+.menu {
+font-size: 20px;
+}
+
+.icons {
+font-size: 18px;
+}
+
+/* BUSCA */
+.search-box {
+padding: 10px;
+background: white;
+}
+
+.search-box input {
+width: 100%;
+padding: 10px;
+border-radius: 8px;
+border: 1px solid #ccc;
+}
+
+/* MAPA */
+.mapa {
+height: 50vh;
+background: #ddd;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/* POPUP */
+.popup {
+position: absolute;
+top: 200px;
+left: 20px;
+background: white;
+padding: 10px;
+border-radius: 10px;
+box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.popup .acoes button {
+margin: 5px;
+}
+
+/* CARDS */
+.cards {
+display: flex;
+overflow-x: auto;
+padding: 10px;
+gap: 10px;
+}
+
+.card {
+min-width: 150px;
+background: white;
+padding: 10px;
+border-radius: 10px;
+}
+
+.card h3 {
+margin: 5px 0;
+}
+
+.botoes button {
+margin-right: 5px;
 }
